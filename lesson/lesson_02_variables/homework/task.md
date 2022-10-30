@@ -1,43 +1,66 @@
-# Lesson 2
-## Task 1
+# 2. Nodarbība
+## 1. Uzdevums
+### Izdukāt sveicienu konsolē
 
-Create a program that greets you.
+Izveidot programmu, kas konsolē izvada sveicienu
 
-For example: if your name is *"John Smith,"* then the program should write to the console, *"Hello, John Smith!"*
+```
+Hello, {vārds} {uzvārds}!
+```
 
-Steps:
-* Create a class named Greeting;
-* Add the main method;
+Piemērs: ja jūsu vārds ir *"Jānis Bērziņš'*, tad konsolē ir jāizvada sekojošs sveiciens:
+```
+Hello, Jānis Bērziņš!
+```
+
+Pa soļiem:
+* Izveidojiet klasi ar nosaukumu Greeting.
+* Pievienojiet main metodi;
 ```
 public static void main(String[] args) {
 
 }
 ```
-* Write greeting to the console.
+* Pieveinojot kodu sveiciena izvadei.
 
-## Task 2
+## 2. uzdevums
 
-Create a class Quad that calculates a perimeter for a quadrangle (A quadrangle is a shape with four sides).
+### Četrstūra perimetra aprēķins
 
-Steps:
-* Create four integer variables, each representing a length of a particular quadrangle side (side1, side2, side3 and side4).
-* Sum all sides.
-* Write the result to the console.
+Izveidojiet klasi Quad, kas spēs aprēķināt četrstūra perimetru
 
-## Task 3
+Pa soļiem:
 
-Create a class name *"Equation"* to solve the following equation: x + y * z.
+* Izveidojiet 4 integer (int) tipa mainīgos (katrs mainīgais apzīmēs vienu no četrstūra malām)
+* Saskaitiet visas mainīgos kopā;
+* Izvadiet resultātu konsolē, sekojošā formātā:
+```
+Četrsturā perimetrs ir {X} metri!
+```
+{X} - perimetra kopsumma
 
-Steps:
-* Define three integer variables x, y, z;
-* Define a variable result that will contain the result of x + y * z;
-* Write result variable to console.
+## 3. uzdevums
 
-## Extra
+### Vienādojums
 
-## Task 4
+Izveidojiet klasi *"Equation"*, kas spēs atrisināt sekojošu vienādojumu:
+```
+x + y * z
+```
 
-How to fix following code?
+Pa soļiem:
+* Izveidojiet trīs integer (int) tipa mainīgos x, y, z;
+* Izpildiet aritmētisko vienādojumu ar mainīgajiem;
+* Resultātu ierakstiet mainīgajā result;
+* Izdrukājiet result vērtību konsolē
+
+## Papilduzdeumi
+
+## 4. Uzdevums
+
+### Nestrādājoša koda salabošana
+
+Salabojiet sekojošu kodu:
 
 ```
 public class BankAccountBalance {
@@ -50,12 +73,12 @@ public class BankAccountBalance {
 }
 ```
 
-Steps
-* Create a class BankAccountBalance;
-* Copy non-working code;
-* Fix it.
+Pa soļiem
+* Izveidojiet klasi BankAccountBalance
+* Ievietojiet BankAccountBalance klasē nestrādājošo kodu
+* Salabojiet to;
+* Izpildiet salaboto kodu un pārliecinieties, ka konsolē tiek izvadīts sekojošs teksts:
 
-After fixing the code BankAccountBalance should write to the console:
 ```
 Your account balance is 2132.58" to the console.
 ```
