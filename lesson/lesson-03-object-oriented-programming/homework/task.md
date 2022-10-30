@@ -1,5 +1,4 @@
 # 3. Nodarbība
-
 ## 1. Uzdevums
 ### Grāmata
 
@@ -41,15 +40,13 @@ Book title: Clean Code, Author: Robert Cecil Martin, Page count: 403
 
 3. Izveidot *get* un *set* metodes visiem laukiem.
 
-2. Izveidot klasi CatDemo ar main metodi, kurā tiek inicializēti trīs Cat objekti izmantojot dažādus konstruktorus:
+4. Izveidot klasi CatDemo ar main metodi, kurā tiek inicializēti trīs Cat objekti izmantojot dažādus konstruktorus:
 * Bez parametriem;
 * Norādot vārdu;
 * Norādot vārdu, krāsu, vecumu.
 
-3. Visiem trim Cat objektiem, kas tika izveidoti otrajā punktā, uzstādīt neuzstādītās vērtības izmantojot *set* metodes.
-
-
-4. Klasē Cat izveidot metodi *printInfo()*, kura izdrukā konsolē visas Cat objekta vērtības
+5. Visiem trim Cat objektiem, kas tika izveidoti otrajā punktā, uzstādīt neuzstādītās vērtības izmantojot *set* metodes.
+6Klasē Cat izveidot metodi *printInfo()*, kura izdrukā konsolē visas Cat objekta vērtības
 
 Piemērs:
 
@@ -59,9 +56,10 @@ public void printInfo() {
     ...
 }
 ```
-5. Klasē CatDemo izsaukt metodi *printInfo* visiem definētajiem Cat objektiem.
+6. Klasē CatDemo izsaukt metodi *printInfo* visiem definētajiem Cat objektiem.
 
 ## 3. Uzdevums
 
 1. Izvēlieties patvaļigī jebkādu objektu no apkārtējās pasaules un izveidojiet tam klasi (klase, lauki, *get* un *set* metodes).
+
 2. Izveidojiet atsevišķu klasi ar main metodi, kurā tiek inicializēts objekts klasei, kas tika izveidota pirmajā punktā.
