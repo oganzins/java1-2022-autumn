@@ -1,3 +1,13 @@
 rootProject.name = 'java1-2022-autumn'
 
 include 'teacher'
+include 'student:gita-tupe'
+include 'student:johansons-k'
+include 'student:dambenieks-juris'
+include 'student:visocka-karina'
+include 'student:kesteris-edvards'
+include 'student:dora-lana'
+include 'student:strazdins-edgars'
+include 'student:pilskalns-nils'
+include 'student:adina-liene'
+include 'student:bute-davis'
