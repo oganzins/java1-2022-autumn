@@ -1,0 +1,7 @@
+# Question 11
+What is a java keyword used in switch statements
+that causes immediate exit or that terminates the switch statement?
+      a) The case keyword.
+      b) The switch keyword.
+      c) The default keyword.
+      d) The break keyword.

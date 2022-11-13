@@ -1,0 +1,7 @@
+# Question 5
+What is a part of a switch statement that
+will execute if there are no values that matched the given choices?
+     a) case
+     b) break
+     c) default
+     d) None of the above
