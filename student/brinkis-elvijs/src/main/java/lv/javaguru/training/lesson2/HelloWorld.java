@@ -1,4 +1,4 @@
-package lv.javaguru.training.homework;
+package lv.javaguru.training.lesson2;
 
 public class HelloWorld {
 
