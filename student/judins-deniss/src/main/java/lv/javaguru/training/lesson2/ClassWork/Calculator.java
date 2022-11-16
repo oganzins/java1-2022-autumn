@@ -1,4 +1,4 @@
-package Homework;
+package lv.javaguru.training.lesson2.ClassWork;
 
 public class Calculator {
     public static void main(String[] args) {
