@@ -1,4 +1,4 @@
-package homewwork;
+package homework;
 
 public class Equasion {
 
