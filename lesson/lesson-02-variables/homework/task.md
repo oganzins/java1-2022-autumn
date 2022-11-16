@@ -11,7 +11,8 @@ Hello, {vārds} {uzvārds}!
 Piemērs: ja jūsu vārds ir *"Jānis Bērziņš'*, tad konsolē ir jāizvada sekojošs sveiciens:
 ```
 Hello, Jānis Bērziņš!
-```
+
+System.out.println("Hello, Janis Berziņš)"
 
 Pa soļiem:
 * Izveidojiet klasi ar nosaukumu Greeting.
