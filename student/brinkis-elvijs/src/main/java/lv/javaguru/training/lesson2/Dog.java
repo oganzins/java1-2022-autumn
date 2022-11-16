@@ -1,7 +1,7 @@
 package lv.javaguru.training.lesson2;
 
 public class Dog {
-    System.out.println(String[] args){
+
 
         String name;
         int age;
@@ -13,6 +13,6 @@ public class Dog {
         void bark(){
 
         }
-        void
-    }
+
+
 }
