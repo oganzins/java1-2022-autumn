@@ -1,4 +1,4 @@
-package Homework;
+package lv.javaguru.training.lesson3.Homework;
 
 public class Book {
 
