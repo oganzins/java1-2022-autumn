@@ -33,10 +33,16 @@ public int getPageCount(){
 
     public static void main(String[]args) {
         Book BookDemo = new Book();
+
         BookDemo.author = "Robert Cecil Martin";
         BookDemo.title = "Clean Code";
         BookDemo.pageCount = 403;
-        System.out.println("Book title: " + BookDemo.getTitle() + ", Author :" + BookDemo.getAuthor() + ", Page count :" + BookDemo.getPageCount());
+        String bookTitle = BookDemo.getTitle();
+        String bookAuthor = BookDemo.getAuthor();
+        int bookPageCount = BookDemo.getPageCount();
+        System.out.println("Book title: " + bookTitle + ", Author :" + bookAuthor+ ", Page count :" + bookPageCount);
+
+
         BookDemo.setAuthor("Robert Cecil Martin");
         BookDemo.setTitle("Clean Code");
         BookDemo.setPageCount(403);
