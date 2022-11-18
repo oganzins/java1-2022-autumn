@@ -1,4 +1,4 @@
-package lv.javaguru.training.lesson2;
+package lv.javaguru.training.lesson3;
 
 public class Greeting {
     public static void main(String[] args) {

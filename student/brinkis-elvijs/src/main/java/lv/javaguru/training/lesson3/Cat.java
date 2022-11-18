@@ -1,4 +1,4 @@
-package lv.javaguru.training;
+package lv.javaguru.training.lesson3;
 
 public class Cat {
 

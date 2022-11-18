@@ -1,4 +1,6 @@
-package lv.javaguru.training.lesson2;
+package lv.javaguru.training.lesson3;
+
+import lv.javaguru.training.lesson3.Dog;
 
 public class DogDemo {
     public static void main(String[] args) {

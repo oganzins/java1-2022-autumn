@@ -1,6 +1,4 @@
-package lv.javaguru.training.lesson2;
-
-import java.awt.*;
+package lv.javaguru.training.lesson3;
 
 public class Person {
 
