@@ -16,13 +16,13 @@ public class Person {
     }
 
 
-    public String getFirstName() {
-        return this.firstName;
-    }
+    public String getFirstName() {return this.firstName;}
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
+
+
 
 
     public String getName() {
@@ -33,7 +33,8 @@ public class Person {
     public static void main(String[] args) {
         Person student = new Person("Elvijs", "Briņķis", 37);
         System.out.println(student.getFirstName());
-        student.setFirstName("Elvijs");
+        student.setFirstName("Brinkis");
+        System.out.println(student.getFirstName());
     }
 
 

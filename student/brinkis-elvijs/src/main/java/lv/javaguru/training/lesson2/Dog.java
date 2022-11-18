@@ -14,5 +14,9 @@ public class Dog {
 
         }
 
+        void eat() {
+
+        }
+
 
 }
