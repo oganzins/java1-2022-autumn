@@ -5,7 +5,7 @@ import java.util.StringJoiner;
 
 public class Book {
 
-    private String title;
+    private static String title;
     private String author;
     private int pages;
 
@@ -21,7 +21,7 @@ public class Book {
         this.pages = book.pages;
     }
 
-    public String getTitle() {
+    public static String getTitle() {
         return title;
     }
 
@@ -30,5 +30,10 @@ public class Book {
     }
 
 
+    }
 
-}
+
+
+
+
+
