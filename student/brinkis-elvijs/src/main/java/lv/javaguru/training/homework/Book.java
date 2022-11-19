@@ -1,5 +1,8 @@
 package lv.javaguru.training.homework;
 
+import java.util.Stack;
+import java.util.StringJoiner;
+
 public class Book {
 
     private String title;
@@ -19,7 +22,13 @@ public class Book {
     }
 
     public String getTitle() {
-
+        return title;
     }
+
+   public void setAuthor(String author) {
+        this.author = author;
+    }
+
+
 
 }
