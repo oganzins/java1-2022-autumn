@@ -68,6 +68,9 @@ public class Cat {
         System.out.println("Cats Age-" + age);
         System.out.println("Cats weight-" + weight);
     }
+    public void voice() {
+        System.out.println("MMURR");
+    }
 
 
 }
