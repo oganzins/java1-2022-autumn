@@ -7,7 +7,11 @@ public class CatDemo {
         Cat Cat = new Cat("Roko", "Brown", 4);
 
 
+        
+            System.out.println("Cat's name: Roko");
 
         }
-    }
+
+        }
+
 
