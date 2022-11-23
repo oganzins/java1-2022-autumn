@@ -8,6 +8,10 @@ public class Cat {
     private int age;
     private int weight;
 
+    public Cat() {
+
+    }
+
     public Cat(String name, String color, int age, String species, int weight) {
     }
 

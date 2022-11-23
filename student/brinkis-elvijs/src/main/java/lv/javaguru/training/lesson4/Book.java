@@ -14,9 +14,9 @@ public class Book {
             return "Medium sized";
         } else if (pageCount > 100 && pageCount < 200) {
             return "long";
+        } else {
+            return "Very long";
         }
-
-
     }
 
     public static void main(String[] args) {
