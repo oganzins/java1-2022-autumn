@@ -11,7 +11,5 @@ class CatDemo {
         cat.setCatName("Garfield");
         cat.setCatColor("Ginger");
         cat.setCatAge(6);
-
-
     }
 }
