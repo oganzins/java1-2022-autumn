@@ -6,24 +6,24 @@ public class Person {
     int age;
 
     Person(String firstName, String lastName, int age){
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.age = age;
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.age = age;
     }
-     public void setFirstName(String firstName){
+
+    public String getFirstName(){
+            return this. firstName;
+        }
+    public void setFirstName (String firstName){
         this.firstName = firstName;
-     }
-
-
-    public String getName(){
-        return firstName + " " + lastName;
     }
 
     public static void main(String[] args) {
         Person teacher = new Person("Krista", "Mikelsone", 18 );
-        System.out.println (teacher.setFirstName());
+        System.out.println (teacher.getFirstName());
         teacher.setFirstName("Inga");
-        System.out.println (teacher.setFirstName());
+        System.out.println (teacher.getFirstName());
 
     }
-}
+    }
+
