@@ -9,7 +9,7 @@ public class Book {
     Book(String nosaukums, String autors, int lpp) {
         this.nosaukums = nosaukums;
         this.autors = autors;
-        this.lpp = lpp;
+        this.lpp = 5;
     }
 
     public String getnosaukums() {return this.nosaukums;  }
@@ -26,11 +26,14 @@ public class Book {
 
 
     public static void main(String[] args) {
-        Book BookDemo = new Book ("Tīrs Kods","Roberts Cecils Martins","4");
+        Book BookDemo = new Book ("Tīrs Kods","Roberts Cecils Martins",404);
         System.out.println(BookDemo.getnosaukums());
-        BookDemo.setnosaukums("Nosaukums");
-        System.out.println(BookDemo.getnosaukums());
-
+        BookDemo.setnosaukums("Clean Code");
+        BookDemo.setautors("Robert Cecil Martin");
+        BookDemo.setlpp(404);
+        System.out.println("Book Title:"); System.out.println(BookDemo.getnosaukums());
+        System.out.println("Author:"); System.out.println(BookDemo.getautors());
+        System.out.println("Page count:"); System.out.println(BookDemo.getlpp());
 
 
 
