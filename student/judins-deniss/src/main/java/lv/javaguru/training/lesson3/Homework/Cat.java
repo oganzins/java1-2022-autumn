@@ -29,3 +29,28 @@ public String getCatName() {return name;}
     public void setCatAge(int newValue) {age = newValue;}
     public void setCatWeight(float newValue) {weight = newValue;}
 }
+
+class CatDemo {
+    private String catName;
+    private String catColor;
+
+    private int catAge;
+
+    public void main(String[] args) {
+        Cat cat = new Cat();
+        this.catName = "Garfield";
+        this.catColor = "Ginger";
+        this.catAge = 6;
+
+    Cat() {
+        }
+
+        Cat(this.catName){}
+
+        Cat(this.catName, this.catColor, this.catAge) {}
+
+        public void printInfo() {
+            System.out.println("Cat's name: " + this.catName);
+        }
+    }
+}
