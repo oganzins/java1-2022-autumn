@@ -55,4 +55,8 @@ public class Cat {
         Cat Cat1 = new Cat ();
         Cat Cat2 = new Cat ("Mincis2");
         Cat Cat3 = new Cat ("Mincis3","Melns",4);
+
+
+            System.out.println("Cat's name: " + Cat1.getName());
+        }
 }
