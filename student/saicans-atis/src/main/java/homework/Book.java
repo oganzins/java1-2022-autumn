@@ -29,9 +29,9 @@ public class Book {
         BookDemo.setnosaukums("Clean Code");
         BookDemo.setautors("Robert Cecil Martin");
         BookDemo.setlpp(403);
-        System.out.println("Book title:");System.out.println(BookDemo.getnosaukums());
-        System.out.println("Author:"); System.out.println(BookDemo.getautors());
-        System.out.println("Page count:"); System.out.println(BookDemo.getlpp());
+        System.out.println("Book title:" + BookDemo.getnosaukums());
+        System.out.println("Author:" + BookDemo.getautors());
+        System.out.println("Page count:" + BookDemo.getlpp());
 
 
 
