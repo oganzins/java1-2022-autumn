@@ -2,22 +2,19 @@ package lv.javaguru.training.lesson3.homework;
 
 public class BookDemo {
     public static void main(String[] args) {
-        Book title = new Book();
-        title.setTitle("Maestro");
-        Book author = new Book();
-        author.setAuthor("Anšlavs Eglītis");
-        Book pageCount = new Book();
-        pageCount.setPageCount(341);
+        Book book = new Book();
+        book.setTitle("Maestro");
+        book.setAuthor("Anšlavs Eglītis");
+        book.setPageCount(341);
 
-        String bookTitle = title.getTitle();
-        String bookAuthor = author.getAuthor();
-        int pageCount = pageCount.getPageCount();
+        String bookTitle = book.getTitle();
+        String bookAuthor = book.getAuthor();
+        int pageCount = book.getPageCount();
 
-        System.out.println("Book title: " + bookTitle, "Author: " + bookAuthor, "Page count: " + pageCount);
-
-
-        }
+        System.out.println("Book title: " + bookTitle + "Author: " + bookAuthor + "Page count: " + pageCount);
 
     }
+
+}
 
 

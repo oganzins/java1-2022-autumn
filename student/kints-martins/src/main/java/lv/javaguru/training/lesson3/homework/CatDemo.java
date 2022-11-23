@@ -7,12 +7,13 @@ public class CatDemo {
         cat.setName("Zīļuks");
         cat.setColor("Gray");
         cat.setAge(11);
+        cat.setSpecies("Bezsuga");
+        cat.printInfo();
 
-
-        public void printInf() {
-            System.out.println("Cat's name: " + name);
-        }
-
+        Cat otherCat = new Cat("Griķītis");
+        System.out.println(otherCat.getName());
 
     }
+
+
 }
