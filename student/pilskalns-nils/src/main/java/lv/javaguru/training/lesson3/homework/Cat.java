@@ -1,14 +1,16 @@
 package lv.javaguru.training.lesson3.homework;
 
 public class Cat {
-   public String name;
-   public String color;
-   public String species;
-   public int age;
-  public  double weight;
-    Cat(){
+    public String name;
+    public String color;
+    public String species;
+    public int age;
+    public double weight;
+
+    Cat() {
     }
-    Cat(String name){
+
+    Cat(String name) {
         this.name = name;
     }
 
@@ -17,16 +19,20 @@ public class Cat {
         this.color = color;
         this.age = age;
     }
-    public void setName (String name) {
+
+    public void setName(String name) {
         this.name = name;
     }
-    public void setColor (String color){
+
+    public void setColor(String color) {
         this.color = color;
     }
-    public void setSpecies (String species) {
+
+    public void setSpecies(String species) {
         this.species = species;
     }
-    public void setAge (int age) {
+
+    public void setAge(int age) {
         this.age = age;
     }
 
@@ -37,9 +43,11 @@ public class Cat {
     public String getName() {
         return this.name;
     }
+
     public String getColor() {
         return this.color;
     }
+
     public String getSpecies() {
         return this.species;
     }
@@ -72,37 +80,37 @@ public class Cat {
         CatDemo1.secondCat();
 
 
-
-        Cat CatDemo2 = new Cat("Odins", "Black", 3);
-        CatDemo2.setSpecies("Manecoon");
+        Cat CatDemo2 = new Cat("Bruno", "Black", 3);
+        CatDemo2.setSpecies("Unknown");
         CatDemo2.setAge(1);
         CatDemo2.setWeight(5);
 
         CatDemo2.thirdCat();
 
 
-
-
     }
-       public void firstCat() {
+
+    public void firstCat() {
         System.out.println("Cat's name: " + name);
         System.out.println("Cat's color: " + color);
         System.out.println("Cat's species: " + species);
         System.out.println("Cat's age: " + age);
         System.out.println("Cat's weight: " + weight);
-       }
-       public void secondCat(){
-           System.out.println("Cat's name: " + name);
-           System.out.println("Cat's color: " + color);
-           System.out.println("Cat's species: " + species);
-           System.out.println("Cat's age: " + age);
-           System.out.println("Cat's weight: " + weight);
-       }
-       public void thirdCat(){
-           System.out.println("Cat's name: " + name);
-           System.out.println("Cat's color: " + color);
-           System.out.println("Cat's species: " + species);
-           System.out.println("Cat's age: " + age);
-           System.out.println("Cat's weight: " + weight);
-       }
+    }
+
+    public void secondCat() {
+        System.out.println("Cat's name: " + name);
+        System.out.println("Cat's color: " + color);
+        System.out.println("Cat's species: " + species);
+        System.out.println("Cat's age: " + age);
+        System.out.println("Cat's weight: " + weight);
+    }
+
+    public void thirdCat() {
+        System.out.println("Cat's name: " + name);
+        System.out.println("Cat's color: " + color);
+        System.out.println("Cat's species: " + species);
+        System.out.println("Cat's age: " + age);
+        System.out.println("Cat's weight: " + weight);
+    }
 }
