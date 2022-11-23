@@ -8,12 +8,10 @@ public class Cat {
     private int age;
     private int weight;
 
-    public Cat(String Roko, String brown, int age) {
+    public Cat(String name, String color, int age, String species, int weight) {
     }
 
-    String getName() {
-        return name;
-    }
+    String getName() {return name;}
 
     String getSpecies() {
         return species;

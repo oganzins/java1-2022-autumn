@@ -4,14 +4,11 @@ public class CatDemo {
 
     public static void main(String[] args) {
 
-        Cat Cat = new Cat("Roko", "Brown", 4);
+    }
+    cat cat = new cat("Roko");
+}
 
 
-        
-            System.out.println("Cat's name: Roko");
 
-        }
-
-        }
 
 
