@@ -65,6 +65,8 @@ public class Cat {
     public void printInfo() {
         System.out.println("Cat's name: " + name);
         System.out.println("Cat's age: " + age);
+        System.out.println("Cat's specie: " + species);
+        System.out.println("Cat's color: " + color);
     }
 
 }
