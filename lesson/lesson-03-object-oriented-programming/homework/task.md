@@ -46,7 +46,7 @@ Book title: Clean Code, Author: Robert Cecil Martin, Page count: 403
 * Norādot vārdu, krāsu, vecumu.
 
 5. Visiem trim Cat objektiem, kas tika izveidoti otrajā punktā, uzstādīt neuzstādītās vērtības izmantojot *set* metodes.
-6Klasē Cat izveidot metodi *printInfo()*, kura izdrukā konsolē visas Cat objekta vērtības
+6.Klasē Cat izveidot metodi *printInfo()*, kura izdrukā konsolē visas Cat objekta vērtības
 
 Piemērs:
 
