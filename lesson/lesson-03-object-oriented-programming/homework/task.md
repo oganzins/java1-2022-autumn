@@ -4,8 +4,7 @@
 
 1. Izveidojiet klasi Book.
 2. Izveidojiet sekojošus klases laukus:
-   * Nosaukums (title);
-   * Autors (author);
+   * Nosaukums (title);   * Autors (author);
    * Lappušu skaits (pageCount).
 3. Visiem klases laukiem izveidot *get* un *set* metodes.
 4. Izveidot klasi BookDemo ar main metodi.

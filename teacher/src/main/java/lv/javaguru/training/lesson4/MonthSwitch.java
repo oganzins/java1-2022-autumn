@@ -68,7 +68,7 @@ public class MonthSwitch {
     }
 
     public static void main(String[] args) {
-        MonthSwitch month = new MonthSwitch(12);
+        MonthSwitch month = new MonthSwitch();
         System.out.println(month.getMonthName());
     }
 
