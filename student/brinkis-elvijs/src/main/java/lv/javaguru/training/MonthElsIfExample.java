@@ -38,6 +38,11 @@ public class MonthElsIfExample {
 
     }
 
+    public static void main(String[] args) {
+        MonthElsIfExample demo = new MonthElsIfExample(10);
+
+        System.out.println(demo.getMonthName());
+    }
 
 }
 
