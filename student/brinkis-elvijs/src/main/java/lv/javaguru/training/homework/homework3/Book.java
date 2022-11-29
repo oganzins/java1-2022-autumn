@@ -1,7 +1,4 @@
-package lv.javaguru.training.homework;
-
-import java.util.Stack;
-import java.util.StringJoiner;
+package lv.javaguru.training.homework.homework3;
 
 public class Book {
 

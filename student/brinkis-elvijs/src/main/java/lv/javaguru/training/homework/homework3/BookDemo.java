@@ -1,6 +1,4 @@
-package lv.javaguru.training.homework;
-
-import java.net.SocketOption;
+package lv.javaguru.training.homework.homework3;
 
 public class BookDemo {
 
