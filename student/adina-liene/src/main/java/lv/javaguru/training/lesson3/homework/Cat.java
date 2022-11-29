@@ -1,31 +1,32 @@
 package lv.javaguru.training.lesson3.homework;
 
 /*
-    Homework accepted
+    Homework accepted.
  */
 public class Cat {
 
     String name;
     String color;
     String species;
-    int age;
+    double age;
     double weight;
 
     Cat() {
+
     }
 
     Cat(String name) {
         this.name = name;
     }
 
-    Cat(String name, String color, int age) {
+    Cat(String name, String color, double age) {
         this.name = name;
         this.color = color;
         this.age = age;
     }
 
 
-    public String getName() {
+    String getName() {
         return this.name;
     }
 
@@ -33,7 +34,7 @@ public class Cat {
         this.name = name;
     }
 
-    public String getColor() {
+    String getColor() {
         return this.color;
     }
 
@@ -41,7 +42,7 @@ public class Cat {
         this.color = color;
     }
 
-    public String getSpecies() {
+    String getSpecies() {
         return this.species;
     }
 
@@ -49,15 +50,15 @@ public class Cat {
         this.species = species;
     }
 
-    public int getAge() {
+    double getAge() {
         return this.age;
     }
 
-    public void setAge(int age) {
+    public void setAge(double age) {
         this.age = age;
     }
 
-    public double getWeight() {
+    double getWeight() {
         return this.weight;
     }
 
@@ -67,9 +68,13 @@ public class Cat {
 
     public void printInfo() {
         System.out.println("Cat's name: " + name);
-        System.out.println("Cat's age: " + age);
-        System.out.println("Cat's specie: " + species);
         System.out.println("Cat's color: " + color);
+        System.out.println("Cat's species: " + species);
+        System.out.println("Cat's age: " + age);
+        System.out.println("Cat's weight: " + weight);
     }
 
+
 }
+
+

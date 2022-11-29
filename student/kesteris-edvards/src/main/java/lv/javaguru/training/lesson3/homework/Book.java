@@ -1,5 +1,8 @@
 package lv.javaguru.training.lesson3.homework;
 
+/*
+    Homework accepted
+ */
 public class Book {
     public String title;
     public String author;
@@ -29,7 +32,6 @@ public class Book {
     public void setPageCount(int pageCount) {
         this.pageCount = pageCount;
     }
-
 
 
 }

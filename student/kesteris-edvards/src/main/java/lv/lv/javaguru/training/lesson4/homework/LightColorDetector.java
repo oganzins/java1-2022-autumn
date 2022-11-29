@@ -1,5 +1,8 @@
 package lv.lv.javaguru.training.lesson4.homework;
 
+/*
+    Homework accepted
+ */
 public class LightColorDetector {
 
     public String detect(int wavelength) {
@@ -20,8 +23,7 @@ public class LightColorDetector {
         }
         if (wavelength >= 620 && wavelength <= 750) {
             return "Red";
-        }
-        else return "Invisible Light";
+        } else return "Invisible Light";
     }
 
     public void printColor(int wavelength) {

@@ -1,5 +1,8 @@
 package lv.javaguru.training.lesson4.homework;
 
+/*
+    Homework accepted
+ */
 public class GreatestOfThree {
     public int getGreatest(int first, int second, int third) {
         if (first > second && first > third) {

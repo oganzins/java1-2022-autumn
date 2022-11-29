@@ -1,5 +1,8 @@
 package lv.javaguru.training.lesson4.homework;
 
+/*
+    Homework accepted
+ */
 public class EvenOddNumber {
 
     public String getNumberType(int number) {

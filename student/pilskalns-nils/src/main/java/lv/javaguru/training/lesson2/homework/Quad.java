@@ -1,5 +1,8 @@
 package lv.javaguru.training.lesson2.homework;
 
+/*
+    Homework accepted
+ */
 public class Quad {
 
     public static void main(String[] args) {

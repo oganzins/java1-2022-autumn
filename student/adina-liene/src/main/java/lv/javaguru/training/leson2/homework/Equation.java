@@ -1,5 +1,9 @@
 package lv.javaguru.training.leson2.homework;
 
+
+/*
+    Homework accepted.
+ */
 public class Equation {
 
     public static void main(String[] args) {

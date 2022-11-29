@@ -1,5 +1,8 @@
 package lv.javaguru.training.homework.homework4;
 
+/*
+    Homework accepted
+ */
 public class PositiveNegativeNumber {
 
     public boolean isPositive(int number) {

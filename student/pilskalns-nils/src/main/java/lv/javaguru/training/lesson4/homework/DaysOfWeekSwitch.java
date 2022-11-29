@@ -1,5 +1,8 @@
 package lv.javaguru.training.lesson4.homework;
 
+/*
+    Homework accepted
+ */
 public class DaysOfWeekSwitch {
     private int dayNumber;
 

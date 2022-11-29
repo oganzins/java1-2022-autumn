@@ -1,5 +1,8 @@
 package lv.javaguru.training;
 
+/*
+    Homework accepted
+ */
 public class Cat {
 
     private String name;

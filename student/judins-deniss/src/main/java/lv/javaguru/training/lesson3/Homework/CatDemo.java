@@ -1,5 +1,8 @@
 package lv.javaguru.training.lesson3.Homework;
 
+/*
+    Homework accepted
+ */
 class CatDemo {
     private String catName;
     private String catColor;

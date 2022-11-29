@@ -1,8 +1,11 @@
 package lv.lv.javaguru.training.lesson4.homework;
 
+/*
+    Homework accepted
+ */
 public class PositiveNegativeNumber {
 
-    public boolean isPositive(int number){
+    public boolean isPositive(int number) {
 
         if (number >= 0) {
             return true;
@@ -10,7 +13,7 @@ public class PositiveNegativeNumber {
         return false;
     }
 
-    public boolean isNegative(int number){
+    public boolean isNegative(int number) {
 
         if (number >= 0) {
             return false;

@@ -1,24 +1,27 @@
 package lv.javaguru.training.lesson3.Homework;
 
+/*
+    Homework accepted
+ */
 public class Book {
 
     private String title;
     private String author;
     private int pageCount;
 
-    public String getBookTitle(){
+    public String getBookTitle() {
         return title;
     }
 
-    public String getBookAuthor(){
+    public String getBookAuthor() {
         return author;
     }
 
-    public int getBookPageCount(){
+    public int getBookPageCount() {
         return pageCount;
     }
 
-    public void setBookTitle(String newValue){
+    public void setBookTitle(String newValue) {
         title = newValue;
     }
 
@@ -26,12 +29,13 @@ public class Book {
         author = newValue;
     }
 
-    public void setBookPageCount(int newValue){
+    public void setBookPageCount(int newValue) {
         pageCount = newValue;
     }
 }
+
 class BookDemo {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Book obj = new Book();
         obj.setBookTitle("Clean Code");
         obj.setBookAuthor("Robert Cecil Martin");

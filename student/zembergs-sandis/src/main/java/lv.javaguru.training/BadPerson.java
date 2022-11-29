@@ -1,5 +1,8 @@
 package lv.javaguru.training;
 
+/*
+    Homework accepted
+ */
 public class BadPerson {
 
     public String firstName;
@@ -11,6 +14,7 @@ public class BadPerson {
         this.firstName = firstName;
 
     }
+
     BadPerson(String firstName, String lastName, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -20,6 +24,7 @@ public class BadPerson {
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
+
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
@@ -27,6 +32,7 @@ public class BadPerson {
     public void setAge(int age) {
         this.age = age;
     }
+
     public void setWeight(double weight) {
         this.weight = weight;
     }
@@ -34,6 +40,7 @@ public class BadPerson {
     public String getfirstName() {
         return this.firstName;
     }
+
     public String getLastName() {
         return this.lastName;
     }
@@ -41,9 +48,11 @@ public class BadPerson {
     public int getAge() {
         return age;
     }
+
     public double weight() {
         return weight;
     }
+
     public static void main(String[] args) {
         BadPerson Es = new BadPerson();
         Es.setFirstName("Sandis");
