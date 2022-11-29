@@ -1,4 +1,4 @@
-# Nodarbība
+# 4. Nodarbība
 
 ## 1. Uzdevums
 ### Pozitīvs-negatīvs skaitlis
@@ -140,12 +140,12 @@ public class DaysOfWeek {
 4. Izveidojam main metodi, lai izpildītu getGreatest metodi:
 ```aidl
     public static void main(String[] args) {
-        GreatestOfTwo greatestOfTwo = new GreatestOfTwo();
+        GreatestOfThree greatestOfThree = new GreatestOfThree();
         
-        System.out.println(greatestOfTwo.getGreatest(1, 2, 3));
-        System.out.println(greatestOfTwo.getGreatest(3, 4, 2));
-        System.out.println(greatestOfTwo.getGreatest(3, 2, 1));
-        System.out.println(greatestOfTwo.getGreatest(3, 3, 3));
+        System.out.println(greatestOfThree.getGreatest(1, 2, 3));
+        System.out.println(greatestOfThree.getGreatest(3, 4, 2));
+        System.out.println(greatestOfThree.getGreatest(3, 2, 1));
+        System.out.println(greatestOfThree.getGreatest(3, 3, 3));
     }
 ```
 5. Pārliecināmies, ka konsolē izvadītās vērtības ir korektas.

@@ -39,7 +39,7 @@ public class MonthElseIfExample {
     }
 
     public static void main(String[] args) {
-        MonthElseIfExample demo = new MonthElseIfExample(10);
+        MonthElseIfExample demo = new MonthElseIfExample(1);
 
         System.out.println(demo.getMonthName());
     }

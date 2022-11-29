@@ -5,15 +5,16 @@ public class BankCard {
     String name;
     String number;
     String securityCode;
-    
-    BankCard(){
+
+    BankCard() {
         name = "UNKNOWN";
         number = "111111111111";
         securityCode = "000";
     }
-    
-    BankCard(String name) { this.name = name; }
 
+    BankCard(String name) {
+        this.name = name;
+    }
 
 
     void printBalance() {

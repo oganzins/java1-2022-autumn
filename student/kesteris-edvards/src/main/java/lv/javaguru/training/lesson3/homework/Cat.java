@@ -1,5 +1,8 @@
 package lv.javaguru.training.lesson3.homework;
 
+/*
+    Homework accepted
+ */
 public class Cat {
     String name;
     String color;
@@ -47,17 +50,29 @@ public class Cat {
         this.color = color;
     }
 
-    public String getSpecies() { return this.species; }
+    public String getSpecies() {
+        return this.species;
+    }
 
-    public void setSpecies(String species) { this.species = species; }
+    public void setSpecies(String species) {
+        this.species = species;
+    }
 
-    public int getAge() { return this.age; }
+    public int getAge() {
+        return this.age;
+    }
 
-    public void setAge(int age) { this.age = age; }
+    public void setAge(int age) {
+        this.age = age;
+    }
 
-    public double getWeight() { return this.weight; }
+    public double getWeight() {
+        return this.weight;
+    }
 
-    public void setWeight(double weight) { this.weight = weight; }
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
 
 
 }

@@ -1,8 +1,11 @@
 package lv.javaguru.training.lesson4.homework;
 
+/*
+    Homework accepted
+ */
 public class LightColorDetector {
-    public String detect(int waveLenght){
-        if ((waveLenght >= 380) && (waveLenght <= 449)){
+    public String detect(int waveLenght) {
+        if ((waveLenght >= 380) && (waveLenght <= 449)) {
             return "Violet";
         } else if ((waveLenght >= 450) && (waveLenght <= 494)) {
             return "Blue";
@@ -35,4 +38,4 @@ public class LightColorDetector {
         lightColorDetector.printColor(750);
         lightColorDetector.printColor(1200);
     }
-    }
+}

@@ -1,4 +1,6 @@
-package lv.javaguru.training.homework;
+package lv.javaguru.training.homework.homework3;
+
+import lv.javaguru.training.homework.homework3.Cat;
 
 public class CatDemo {
 

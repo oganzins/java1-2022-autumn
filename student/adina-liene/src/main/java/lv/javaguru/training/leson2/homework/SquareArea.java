@@ -1,5 +1,8 @@
 package lv.javaguru.training.leson2.homework;
 
+/*
+    Homework accepted.
+ */
 public class SquareArea {
 
     public static void main(String[] args) {
