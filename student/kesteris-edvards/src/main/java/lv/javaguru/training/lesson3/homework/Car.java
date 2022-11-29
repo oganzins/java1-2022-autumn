@@ -1,5 +1,8 @@
 package lv.javaguru.training.lesson3.homework;
 
+/*
+    Homework accepted
+ */
 public class Car {
     public String name;
     public String model;

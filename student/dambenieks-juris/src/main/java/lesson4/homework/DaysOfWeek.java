@@ -1,12 +1,15 @@
 package lesson4.homework;
 
+/*
+    Homework accepted
+ */
 public class DaysOfWeek {
 
     private int dayNumber;
-private String dayOfWeek;
+    private String dayOfWeek;
 
 
-public String getDayOfWeek(int dayNumber) {
+    public String getDayOfWeek(int dayNumber) {
         String dayOfWeek;
 
 

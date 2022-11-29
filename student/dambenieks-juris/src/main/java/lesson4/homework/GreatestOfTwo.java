@@ -1,5 +1,8 @@
 package lesson4.homework;
 
+/*
+    Homework accepted
+ */
 public class GreatestOfTwo {
 
     public int getGreatest(int first, int second) {

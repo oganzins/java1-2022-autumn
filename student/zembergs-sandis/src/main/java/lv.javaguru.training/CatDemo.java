@@ -1,5 +1,8 @@
 package lv.javaguru.training;
 
+/*
+    Homework accepted
+ */
 public class CatDemo {
 
     public static void main(String[] args) {

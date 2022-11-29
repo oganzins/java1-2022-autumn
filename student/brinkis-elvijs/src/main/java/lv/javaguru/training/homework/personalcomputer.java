@@ -1,5 +1,12 @@
 package lv.javaguru.training.homework;
 
+/*
+    Homework accepted
+ */
+/*
+Klasses nosaukumam ir jāsākas ar lielo burtu un katram nākamajam vārdam arī jāsākas ar lielo burtu.
+Šajā gadījumā būtu jābūt PersonalComputer
+ */
 public class personalcomputer {
 
     private static String  monitor;

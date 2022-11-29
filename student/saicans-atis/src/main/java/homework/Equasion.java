@@ -1,5 +1,8 @@
 package homework;
 
+/*
+    Homework accepted
+ */
 public class Equasion {
 
     public static void main(String[] args) {

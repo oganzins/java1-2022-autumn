@@ -1,11 +1,14 @@
 package lesson4.homework;
 
+/*
+    Homework accepted
+ */
 public class LightColorDetector {
-    
+
     int waweLenght;
-   
+
     public String detect(int waweLenght) {
-        
+
         if (waweLenght >= 380 && waweLenght <= 449) {
             return "Violet";
         } else if (waweLenght >= 450 && waweLenght <= 494) {
@@ -20,7 +23,8 @@ public class LightColorDetector {
             return "red";
         } else {
             return "Invisible light";
-        }}
+        }
+    }
 
 
     public void printColor(int waweLenght) {
@@ -28,7 +32,8 @@ public class LightColorDetector {
     }
 
     public static void main(String[] args) {
-        LightColorDetector lightColorDetector = new LightColorDetector(); {
+        LightColorDetector lightColorDetector = new LightColorDetector();
+        {
             System.out.println(lightColorDetector.detect(-1));
             System.out.println(lightColorDetector.detect(100));
             System.out.println(lightColorDetector.detect(380));
@@ -38,6 +43,7 @@ public class LightColorDetector {
             System.out.println(lightColorDetector.detect(750));
             System.out.println(lightColorDetector.detect(1200));
         }
-    }}
+    }
+}
             
 

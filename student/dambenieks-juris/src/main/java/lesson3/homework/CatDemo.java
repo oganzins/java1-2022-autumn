@@ -1,5 +1,8 @@
 package lesson3.homework;
 
+/*
+    Homework accepted
+ */
 public class CatDemo {
 
    String catName;
