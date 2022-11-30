@@ -11,7 +11,16 @@ public class GreatestOfTwo {
         //Kādēļ korektors liek uzlikt 12-o rindu??
         return first;
     }
+
+    public static void main(String[] args) {
+        GreatestOfTwo greatestOfTwo = new GreatestOfTwo();
+        System.out.println(greatestOfTwo.getGreatest(1, 2));
+        System.out.println(greatestOfTwo.getGreatest(3, 4));
+        System.out.println(greatestOfTwo.getGreatest(3, 3));
+
+    }
 }
+
 
 
 
