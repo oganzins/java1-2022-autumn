@@ -2,9 +2,6 @@ package lv.javaguru.training.lesson4.Homework4;
 
 public class GreatestOfTwo {
 
-    private int first;
-
-    private int second;
 
     public int getGreatest(int first, int second) {
         if (first > second) {
