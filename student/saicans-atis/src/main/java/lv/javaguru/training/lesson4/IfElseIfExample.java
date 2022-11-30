@@ -2,13 +2,13 @@ package lv.javaguru.training.lesson4;
 
 public class IfElseIfExample {
     public static void main(String[] args) {
-        IfElse
+        //If Else;
 
-        demo.print(1);
-        demo.print(11);
-        demo.print(16);
+        //demo.print(1);
+        //demo.print(11);
+        //demo.print(16);
     }
-                public void print(int x) {
+                public void print() {
         int x = 10;
         if (x < 10) {
             System.out.println("x is less than 10");

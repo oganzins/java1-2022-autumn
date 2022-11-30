@@ -56,7 +56,7 @@ public class Cat {
         Cat Cat2 = new Cat ("Mincis2");
         Cat Cat3 = new Cat ("Mincis3","Melns",4);
 
-        public void printInfo() {
+        //public void printInfo() {
         System.out.println("Kaķa vārds: " + Cat1.getName());
         System.out.println("Kaķa vārds: " + Cat2.getName());
         System.out.println("Kaķa vārds: " + Cat3.getName());

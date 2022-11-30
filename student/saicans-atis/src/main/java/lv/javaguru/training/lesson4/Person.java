@@ -2,14 +2,15 @@ package lv.javaguru.training.lesson4;
 
 public class Person {
     //norakstīt
+
     private int age;
 
-    public Person(String name, int age)
-}
-public boolean isAdult()
+    public Person(String name, int age);
+
+public boolean isAdult(); {
     if(age >17) {
         return true;
-        return false;
+        return false;}
     }
 
 
@@ -17,6 +18,6 @@ public boolean isAdult()
         Person underagePerson = new Person(13);
         System.out.println(underagePerson.isAdult());
 
-        Person adultPerson = new Person(18)
+        Person adultPerson = new Person(18);
     }
 }

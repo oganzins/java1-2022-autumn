@@ -7,7 +7,7 @@ public class LessThan5 {
         if (x > 10) {
             System.out.println("x is greater than 10");
 
-        } else (x < 10) {
+        //} else (x < 10) {
             System.out.println("x less than 10");
         }
     }
