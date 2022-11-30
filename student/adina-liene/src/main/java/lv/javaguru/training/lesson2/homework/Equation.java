@@ -1,4 +1,4 @@
-package lv.javaguru.training.leson2.homework;
+package lv.javaguru.training.lesson2.homework;
 
 
 /*

@@ -15,14 +15,16 @@ public class CatDemo {
         cat1.setWeight(6);
         cat1.printInfo();
 
-        Cat cat2 = new Cat("Orions");
+        Cat cat2 = new Cat();
+        cat2.setName("Orions");
         cat2.setColor("Seal mitted");
         cat2.setSpecies("Ragdoll");
         cat2.setAge(0.3);
         cat2.setWeight(0.3);
         cat2.printInfo();
 
-        Cat cat3 = new Cat("Princese");
+        Cat cat3 = new Cat();
+        cat3.setName("Princese");
         cat3.setColor("Black");
         cat3.setSpecies("Random bred");
         cat3.setAge(19);
