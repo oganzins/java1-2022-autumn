@@ -1,4 +1,4 @@
-package lv.javaguru.training;
+package lv.javaguru.training.lesson2;
 
 public class SquareArea {
         public static void main(String[]args) {
