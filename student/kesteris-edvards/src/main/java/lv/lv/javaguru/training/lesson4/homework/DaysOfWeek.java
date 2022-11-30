@@ -1,5 +1,8 @@
 package lv.lv.javaguru.training.lesson4.homework;
 
+/*
+    Homework accepted
+ */
 public class DaysOfWeek {
 
     public String getDayName(int dayNumber) {

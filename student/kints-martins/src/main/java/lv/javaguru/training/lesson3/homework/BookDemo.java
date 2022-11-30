@@ -1,5 +1,8 @@
 package lv.javaguru.training.lesson3.homework;
 
+/*
+    Homework accepted
+ */
 public class BookDemo {
     public static void main(String[] args) {
         Book book = new Book();
