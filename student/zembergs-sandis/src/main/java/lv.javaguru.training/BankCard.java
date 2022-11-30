@@ -1,5 +1,8 @@
 package lv.javaguru.training;
 
+/*
+    Homework accepted
+ */
 public class BankCard {
 
     String name;
@@ -16,9 +19,11 @@ public class BankCard {
     BankCard(String name) {
         this.name = name;
     }
+
     void printBalance() {
 
     }
+
     public static void main(String[] args) {
         BankCard card = new BankCard("Sandis Zembergs");
 

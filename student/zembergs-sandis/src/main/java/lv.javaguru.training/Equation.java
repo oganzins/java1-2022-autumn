@@ -1,5 +1,8 @@
 package lv.javaguru.training;
 
+/*
+    Homework accepted
+ */
 public class Equation {
 
     public static void main(String[] args) {
@@ -13,9 +16,6 @@ public class Equation {
         System.out.println(result);
 
     }
-
-
-
 
 
 }
