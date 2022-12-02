@@ -2,6 +2,8 @@ package lv.javaguru.training.lesson4.homework;
 
 public class DaysOfWeek {
 
+    // Diemžēl mana lasītprasme kādreiz mani pieviļ, tāpēc ar switch metodi, mājasdarbs ir DaysOfWeek2 failā.
+
     public String getDayName(int dayNumber) {
 
         if (dayNumber == 1) {
