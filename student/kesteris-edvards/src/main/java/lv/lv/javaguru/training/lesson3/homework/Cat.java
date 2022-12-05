@@ -1,4 +1,4 @@
-package lv.javaguru.training.lesson3.homework;
+package lv.lv.javaguru.training.lesson3.homework;
 
 /*
     Homework accepted
