@@ -1,11 +1,11 @@
 package lv.javaguru.training.lesson4;
 
-public class Person {
+/*public class Person {
     //norakstīt
 
     private int age;
 
-    public Person(String name, int age);
+    public Person(String name, int age) ;
 
 public boolean isAdult(); {
     if(age >17) {
@@ -20,4 +20,5 @@ public boolean isAdult(); {
 
         Person adultPerson = new Person(18);
     }
-}
+
+}*/
