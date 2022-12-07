@@ -1,8 +1,8 @@
 package lv.javaguru.training;
 
 public class HelloWorlds {
-    public static void main(String[]args) {
-        System. out.println("Hello Worlds!");
+    public static void main(String[] args) {
+        System.out.println("Hello Worlds!");
 
 
         int a = 4;
@@ -18,8 +18,7 @@ public class HelloWorlds {
         System.out.println(result);
 
 
-
     }
 }
 
-}
+
