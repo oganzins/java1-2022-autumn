@@ -26,7 +26,7 @@ public class ArrayAddValue {
             extendedArray[values.length] = value;
             return extendedArray;
         } else {
-            return new String[] {value};
+            return new String[]{value};
         }
 
     }
