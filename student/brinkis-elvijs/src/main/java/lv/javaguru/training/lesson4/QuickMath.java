@@ -2,7 +2,7 @@ package lv.javaguru.training.lesson4;
 
 public class QuickMath {
 
-    public int max(int a, int b) {
+    public static int max(int a, int b) {
         if (a > b)
         {
             return a;
