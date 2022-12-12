@@ -58,7 +58,7 @@ Pa soļiem:
 1. Izveidojam klasi CreditCard ar sekojošiem privātiem laukiem:
    * name - kartes īpašnieka vārds;
    * number - kartes numurs;
-   * balance - kartes bilance (datu tips: double);
+   * balance - kartes bilance (datu tips: double) - noklusētā vērtība ir 0.00;
    * pinCode - kartes pinkods;
    * invalidPinCodeCounter - uzskaita, cik reizes ir ievadīts nepareizs pinkods - noklusētā vērtība ir 0;
    * active - boolean tipa lauks, kas nosaka vai karte ir aktīva - noklusētā vērtība ir true; 
