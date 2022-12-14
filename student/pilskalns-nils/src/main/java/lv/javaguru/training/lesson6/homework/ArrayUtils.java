@@ -13,8 +13,8 @@ public class ArrayUtils {
 
     public int[] reverse(int[] sourceArray) {
        int[] reverseArray = new int[sourceArray.length];
-       for (int i = sourceArray.length - 1; i > 0 ; i--){
-           reverseArray[sourceArray.length - i] = sourceArray[i];
+       for (int i = sourceArray.length -1; i >= 0 ; i--){
+           reverseArray[sourceArray.length - 1 - i] = sourceArray[i];
        }
 return reverseArray;
     }
