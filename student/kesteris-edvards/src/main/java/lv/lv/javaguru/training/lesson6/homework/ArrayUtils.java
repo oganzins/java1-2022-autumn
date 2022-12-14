@@ -4,18 +4,18 @@ package lv.lv.javaguru.training.lesson6.homework;
 public class ArrayUtils {
 
     public int[] copy(int[] sourceArray) {
+        int[] copy = new int[sourceArray.length];
         for (int i = 0; i < sourceArray.length; i++){
-
+            copy[i] = sourceArray[i];
         }
-        return sourceArray;
+        return copy;
     }
 
     public int[] reverse(int[] sourceArray) {
-        for(int i = 0; i < sourceArray.length / 2; i++){
-            int j = sourceArray[i];
-            sourceArray[i] = sourceArray[sourceArray.length -i -1];
-            sourceArray[sourceArray.length -i -1] = j;
+        int[] reverseArray = new int[sourceArray.length];
+        for(int i = 0; i < sourceArray.length; i++){
+            reverseArray[sourceArray.length - 1 - i] = sourceArray[i];
         }
-        return sourceArray;
+        return reverseArray;
     }
 }
