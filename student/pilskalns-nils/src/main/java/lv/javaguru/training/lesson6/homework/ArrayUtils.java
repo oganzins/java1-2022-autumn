@@ -4,8 +4,22 @@ import java.util.Arrays;
 
 public class ArrayUtils {
     public int[] copy(int[] sourceArray) {
-        for (int i = 0; i < sourceArray.length; i++) {
-            /*
+        int[] copyArray = new int[sourceArray.length];
+        for (int i = 0;i < sourceArray.length;i++){
+            copyArray[i] = sourceArray[i];
+        }
+        return copyArray;
+    }
+
+    public int[] reverse(int[] sourceArray) {
+       int[] reverseArray = new int[sourceArray.length];
+       for (int i = sourceArray.length -1; i >= 0 ; i--){
+           reverseArray[sourceArray.length - 1 - i] = sourceArray[i];
+       }
+return reverseArray;
+    }
+}
+/*
                 Šeit nekas netiek kopēts, bet gan tiek izvadīts konsolē.
                 System.out.println - izvada nevis kopē.
 
@@ -24,16 +38,3 @@ public class ArrayUtils {
                    nevis izveidots jauns masīvs, kas satur apgriestu sourceArray.
 
              */
-            System.out.print(sourceArray [i] + " ");
-        }
-
-        return sourceArray;
-    }
-
-    public int[] reverse(int[] sourceArray) {
-        for (int i = sourceArray.length -1; i >= 0; i--) {
-            System.out.print(sourceArray[i] + " ");
-        }
-        return sourceArray;
-    }
-}
