@@ -14,4 +14,13 @@ public class ArrayUtils {
         return copy;
     }
 
+    public int [] reverse (int[] sourceArray){
+        int[]reverseArray = new int[sourceArray.length];
+        for (int i=0; i<sourceArray.length;i++){
+            reverseArray[sourceArray.length-1-i] = sourceArray[i];
+        }
+        return reverseArray;
+
+    }
+
 }
