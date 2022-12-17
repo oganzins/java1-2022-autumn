@@ -70,7 +70,7 @@ public class CreditCard {
     }
 
     public void withdraw(double amount) {
-        if (authorized == true & amount > 0) {
+        if (authorized == true & balance >= amount) {
             balance -= amount;
         }
     }
