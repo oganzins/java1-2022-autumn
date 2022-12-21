@@ -8,8 +8,8 @@ public class CreditCard {
     private Double balance = 0.00;
     private String pinCode;
     private int invalidPinCodeCounter = 0;
-    private boolean active = true;
-    private boolean authorized = false;
+    private boolean active;
+    private boolean authorized;
 
 
     public CreditCard(String name, String number, String pinCode, double balance) {
@@ -17,6 +17,7 @@ public class CreditCard {
         this.number = number;
         this.pinCode = pinCode;
         this.balance = balance;
+        this.active = true;
     }
 
     public CreditCard(String name, String number, String pinCode) {
@@ -44,13 +45,13 @@ public class CreditCard {
     }
 
     public void login(String pinCode) {
-        if (active == true && pinCode == this.pinCode) {
+        if (active && pinCode.equals(this.pinCode)) {
             authorized = true;
         }
-        if (pinCode == this.pinCode) {
+        if (pinCode.equals(this.pinCode)) {
             invalidPinCodeCounter = 0;
         }
-        if (pinCode != this.pinCode) {
+        if (!pinCode.equals(this.pinCode)) {
             invalidPinCodeCounter++;
         }
         if (invalidPinCodeCounter >= 3) {
@@ -64,13 +65,13 @@ public class CreditCard {
     }
 
     public void deposit(Double amount) {
-        if (authorized == true & amount > 0) {
+        if (authorized & amount > 0) {
             balance += amount;
         }
     }
 
     public void withdraw(Double amount) {
-        if (authorized == true & balance >= amount) {
+        if (authorized & balance >= amount) {
             balance -= amount;
         }
     }
