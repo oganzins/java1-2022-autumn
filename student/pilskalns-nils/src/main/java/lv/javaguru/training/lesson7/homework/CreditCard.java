@@ -5,7 +5,7 @@ public class CreditCard {
 
     private String name;
     private String number;
-    private double balance = 0.00;
+    private Double balance = 0.00;
     private String pinCode;
     private int invalidPinCodeCounter = 0;
     private boolean active = true;
@@ -63,13 +63,13 @@ public class CreditCard {
         authorized = false;
     }
 
-    public void deposit(double amount) {
+    public void deposit(Double amount) {
         if (authorized == true & amount > 0) {
             balance += amount;
         }
     }
 
-    public void withdraw(double amount) {
+    public void withdraw(Double amount) {
         if (authorized == true & balance >= amount) {
             balance -= amount;
         }
