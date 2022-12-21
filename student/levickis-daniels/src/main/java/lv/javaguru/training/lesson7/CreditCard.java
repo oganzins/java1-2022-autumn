@@ -7,8 +7,8 @@ public class CreditCard {
     private double balance;
     private String pinCode;
     private int invalidPinCodeCounter;
-    boolean active;
-    boolean authorized;
+    boolean active =true;
+    boolean authorized=true;
 
 
     public CreditCard(String name, String number, String pinCode, double balance) {
@@ -35,7 +35,7 @@ public class CreditCard {
     }
 
     public boolean isAuthorized() {
-        return active;
+        return authorized;
     }
 
     public void login(String pinCode) {
