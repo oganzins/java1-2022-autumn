@@ -2,9 +2,10 @@ package lv.javaguru.training.lesson8.homework;
 
 import java.util.Objects;
 
-public class Bus extends Car{
+public class Bus extends Car {
     private int passengerCount;
-    public Bus(String color, int year, String make, String model,int passengerCount) {
+
+    public Bus(String color, int year, String make, String model, int passengerCount) {
         super(color, year, make, model);
         this.passengerCount = passengerCount;
     }

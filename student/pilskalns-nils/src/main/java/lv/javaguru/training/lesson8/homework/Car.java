@@ -8,7 +8,7 @@ public class Car {
     private String make;
     private String model;
 
-    public Car(String color, int year, String make, String model){
+    public Car(String color, int year, String make, String model) {
         this.color = color;
         this.year = year;
         this.make = make;

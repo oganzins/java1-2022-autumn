@@ -2,9 +2,10 @@ package lv.javaguru.training.lesson8.homework;
 
 import java.util.Objects;
 
-public class Truck extends Car{
+public class Truck extends Car {
     private double loadCapacity;
-    public Truck(String color, int year, String make, String model,double loadCapacity) {
+
+    public Truck(String color, int year, String make, String model, double loadCapacity) {
         super(color, year, make, model);
         this.loadCapacity = loadCapacity;
     }
