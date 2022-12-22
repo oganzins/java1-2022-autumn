@@ -27,12 +27,15 @@ public class CreditCard {
     public String getName() {
         return name;
     }
+
     public String getNumber() {
         return number;
     }
+
     public boolean isActive() {
         return active;
     }
+
     public boolean isAuthorized() {
         return authorized;
     }
@@ -52,6 +55,7 @@ public class CreditCard {
             active = false;
         }
     }
+
     public void logout() {
         authorized = false;
     }
@@ -67,7 +71,4 @@ public class CreditCard {
             balance -= amount;
         }
     }
-
-
-
 }
