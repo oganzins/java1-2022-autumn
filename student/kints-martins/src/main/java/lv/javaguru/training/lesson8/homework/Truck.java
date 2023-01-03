@@ -11,7 +11,11 @@ public class Truck extends Car {
         this.loadCapacity = loadCapacity;
     }
 
-    public int getLoadCapacity() {return loadCapacity;
+    public int getLoadCapacity() {
+        return loadCapacity;
+    }
+    public void setLoadCapacity(int loadCapacity) {
+        this.loadCapacity = loadCapacity;
     }
 
     @Override
