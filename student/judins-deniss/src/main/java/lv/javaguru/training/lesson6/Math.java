@@ -25,7 +25,7 @@ public class Math {
 
     public static void main(String[] args) {
         Math math = new Math();
-        int maxValue = Math.max(new int[]{-1, 10, 5, 3, 1000, 5, 2});
+        int maxValue = Math.max(new int[]{4, 5, 10, -5, 1000000, 20, 13});
 
         int[][] numbers = new int [3][3];
 
