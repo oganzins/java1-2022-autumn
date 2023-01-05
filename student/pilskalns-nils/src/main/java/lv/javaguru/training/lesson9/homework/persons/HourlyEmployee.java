@@ -1,11 +1,11 @@
 package lv.javaguru.training.lesson9.homework.persons;
 
-public class HourlyEmployee extends Employee{
+public class HourlyEmployee extends Employee {
 
     private double hoursWorked;
     private double payRate;
 
-    public HourlyEmployee(String firstName, String lastName,double hoursWorked,double payRate) {
+    public HourlyEmployee(String firstName, String lastName, double hoursWorked, double payRate) {
         super(firstName, lastName);
         this.hoursWorked = hoursWorked;
         this.payRate = payRate;

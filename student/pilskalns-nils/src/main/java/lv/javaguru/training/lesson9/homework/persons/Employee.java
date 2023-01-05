@@ -1,13 +1,13 @@
 package lv.javaguru.training.lesson9.homework.persons;
 
-public abstract class Employee implements Payable{
+public abstract class Employee implements Payable {
     private String firstName;
     private String lastName;
 
-    public Employee (String firstName, String lastName){
-         this.firstName = firstName;
-         this.lastName = lastName;
-     }
+    public Employee(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
 
     public String getFirstName() {
         return firstName;

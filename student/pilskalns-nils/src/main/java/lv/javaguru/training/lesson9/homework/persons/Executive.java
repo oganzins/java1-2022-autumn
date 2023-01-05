@@ -1,9 +1,9 @@
 package lv.javaguru.training.lesson9.homework.persons;
 
-public class Executive extends SalariedEmployee{
+public class Executive extends SalariedEmployee {
     private double bonus;
 
-    public Executive(String firstName, String lastName, double salary,double bonus) {
+    public Executive(String firstName, String lastName, double salary, double bonus) {
         super(firstName, lastName, salary);
         this.bonus = bonus;
     }
