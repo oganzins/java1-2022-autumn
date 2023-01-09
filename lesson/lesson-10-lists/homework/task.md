@@ -28,7 +28,7 @@ public class Book {
 
 Pa soļiem:
 
-1. Izveidojam interfeisu BookShelf:
+1. Izveidojam interfeisu **BookShelf**:
 ```java
 public interface BookShelf {
 
