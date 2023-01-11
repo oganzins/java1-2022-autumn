@@ -8,7 +8,7 @@ public class MirroredTriangle {
                 System.out.print(" ");
             }
             for (int j = 8; j > i; j--) {
-                System.out.print("* ");
+                System.out.print("9 ");
             }
             System.out.println();
         }
