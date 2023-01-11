@@ -16,7 +16,8 @@ public class Bus extends Car {
         }
 
 
-    public int setPassengerCount(int passengerCount) {
+    public int setPassengerCount
+            (int passengerCount) {
         return passengerCount;
     }
 
