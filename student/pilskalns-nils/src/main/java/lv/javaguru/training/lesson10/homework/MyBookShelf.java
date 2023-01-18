@@ -1,7 +1,6 @@
 package lv.javaguru.training.lesson10.homework;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class MyBookShelf implements BookShelf {
@@ -19,11 +18,9 @@ public class MyBookShelf implements BookShelf {
 
     @Override
     public List<Book> getAllBooks() {
-        List<Book> allBooks = new ArrayList<>();
-        for (Book book : books) {
-            allBooks.add(book);
-        }
-        return allBooks;
+
+
+        return books;
     }
 
     @Override
@@ -88,9 +85,9 @@ public class MyBookShelf implements BookShelf {
 
 
 
-              /* for(int i = 0 ; i <= books.size();i++){
+              /* for(int i = 0 ; i < books.size();i++){
                    if(books.get(i).getAuthor().equals(author)){
-                       books.remove(i);*/
+                       books.remove(i); */
             }
         }
     }
