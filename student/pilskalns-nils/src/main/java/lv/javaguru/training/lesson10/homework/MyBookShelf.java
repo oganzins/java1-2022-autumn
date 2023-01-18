@@ -42,12 +42,14 @@ public class MyBookShelf implements BookShelf {
 
     @Override
     public Book findBookByTitle(String title) {
+        Book book1 = null;
         for (Book book : books) {
             if (book.getTitle().equals(title)) {
-                return book;
+                book1 = book;
+                break;
             }
         }
-        return null;
+        return book1;
     }
 
     @Override
@@ -83,11 +85,6 @@ public class MyBookShelf implements BookShelf {
             if (books.get(i).getAuthor().equals(author)) {
                 books.remove(i);
 
-
-
-              /* for(int i = 0 ; i < books.size();i++){
-                   if(books.get(i).getAuthor().equals(author)){
-                       books.remove(i); */
             }
         }
     }
