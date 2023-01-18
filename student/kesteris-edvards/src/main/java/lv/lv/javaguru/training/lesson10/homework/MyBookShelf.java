@@ -1,9 +1,10 @@
-package lv.javaguru.training.lesson10.homework;
+package lv.lv.javaguru.training.lesson10.homework;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class MyBookShelf implements BookShelf {
+
     private final List<Book> books;
 
     public MyBookShelf() {
@@ -13,54 +14,51 @@ public class MyBookShelf implements BookShelf {
     @Override
     public void addBook(Book book) {
         books.add(book);
-
     }
 
     @Override
     public List<Book> getAllBooks() {
-
-
-        return books;
+        List<Book> findAllBooks = new ArrayList<>();
+        for (Book book : books) {
+            findAllBooks.add(book);
+        }
+        return findAllBooks;
     }
 
     @Override
     public int getBookCount() {
-        int size = books.size();
-        return size;
+        return books.size();
     }
 
     @Override
     public List<Book> findBooksByAuthor(String author) {
-        List<Book> booksFound = new ArrayList<>();
+        List<Book> findBooks = new ArrayList<>();
         for (Book book : books) {
-            if (book.getAuthor().equals(author)) {
-                booksFound.add(book);
-            }
+            if (book.getAuthor().equals(author))
+                findBooks.add(book);
         }
-        return booksFound;
+        return findBooks;
     }
 
     @Override
     public Book findBookByTitle(String title) {
-        Book book1 = null;
         for (Book book : books) {
             if (book.getTitle().equals(title)) {
-                book1 = book;
-                break;
+                return book;
             }
         }
-        return book1;
+        return null;
     }
 
     @Override
     public List<Book> findBookReleasedInPeriod(int yearFrom, int yearTo) {
-        List<Book> bookInPeriod = new ArrayList<>();
+        List<Book> findBookByPeriod = new ArrayList<>();
         for (Book book : books) {
             if (book.getYear() >= yearFrom && book.getYear() <= yearTo) {
-                bookInPeriod.add(book);
+                findBookByPeriod.add(book);
             }
         }
-        return bookInPeriod;
+        return findBookByPeriod;
     }
 
     @Override
@@ -73,10 +71,9 @@ public class MyBookShelf implements BookShelf {
         for (Book book : books) {
             if (book.getTitle().equals(title)) {
                 books.remove(book);
-                break;
             }
+            return;
         }
-
     }
 
     @Override
@@ -84,24 +81,7 @@ public class MyBookShelf implements BookShelf {
         for (int i = books.size() - 1; i >= 0; i--) {
             if (books.get(i).getAuthor().equals(author)) {
                 books.remove(i);
-
             }
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

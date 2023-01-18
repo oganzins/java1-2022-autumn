@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MyBookShelf implements BookShelf {
-    private final List<Book> books;
+    private List<Book> books;
 
     public MyBookShelf() {
         books = new ArrayList<>();
@@ -18,9 +18,11 @@ public class MyBookShelf implements BookShelf {
 
     @Override
     public List<Book> getAllBooks() {
-
-
-        return books;
+        List<Book> allBooks = new ArrayList<>();
+        for (Book book : books) {
+            allBooks.add(book);
+        }
+        return allBooks;
     }
 
     @Override
@@ -42,14 +44,12 @@ public class MyBookShelf implements BookShelf {
 
     @Override
     public Book findBookByTitle(String title) {
-        Book book1 = null;
         for (Book book : books) {
             if (book.getTitle().equals(title)) {
-                book1 = book;
-                break;
+                return book;
             }
         }
-        return book1;
+        return null;
     }
 
     @Override
@@ -66,6 +66,7 @@ public class MyBookShelf implements BookShelf {
     @Override
     public void removeBook(Book book) {
         books.remove(book);
+
     }
 
     @Override
@@ -84,24 +85,8 @@ public class MyBookShelf implements BookShelf {
         for (int i = books.size() - 1; i >= 0; i--) {
             if (books.get(i).getAuthor().equals(author)) {
                 books.remove(i);
-
             }
         }
+
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

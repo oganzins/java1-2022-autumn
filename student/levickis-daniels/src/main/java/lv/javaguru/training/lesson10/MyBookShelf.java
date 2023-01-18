@@ -1,10 +1,11 @@
-package lv.javaguru.training.lesson10.homework;
+package lv.javaguru.training.lesson10;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class MyBookShelf implements BookShelf {
-    private final List<Book> books;
+    private List<Book> books;
+    ;
 
     public MyBookShelf() {
         books = new ArrayList<>();
@@ -13,95 +14,77 @@ public class MyBookShelf implements BookShelf {
     @Override
     public void addBook(Book book) {
         books.add(book);
-
     }
 
     @Override
     public List<Book> getAllBooks() {
-
-
         return books;
     }
 
     @Override
     public int getBookCount() {
-        int size = books.size();
-        return size;
+        return books.size();
     }
 
     @Override
     public List<Book> findBooksByAuthor(String author) {
-        List<Book> booksFound = new ArrayList<>();
+        List<Book> booksByAuthor = new ArrayList<>();
         for (Book book : books) {
             if (book.getAuthor().equals(author)) {
-                booksFound.add(book);
+                booksByAuthor.add(book);
             }
         }
-        return booksFound;
+        return booksByAuthor ;
     }
+
+
 
     @Override
     public Book findBookByTitle(String title) {
-        Book book1 = null;
+        Book foundBook = null;
         for (Book book : books) {
-            if (book.getTitle().equals(title)) {
-                book1 = book;
+            if(book.getTitle().equals(title)){
+                foundBook=book;
                 break;
             }
+
         }
-        return book1;
+        return foundBook;
     }
 
     @Override
     public List<Book> findBookReleasedInPeriod(int yearFrom, int yearTo) {
-        List<Book> bookInPeriod = new ArrayList<>();
-        for (Book book : books) {
-            if (book.getYear() >= yearFrom && book.getYear() <= yearTo) {
-                bookInPeriod.add(book);
+        List<Book> foundBook = new ArrayList<>();
+        for (Book book: books){
+            if (book.getYear()>=yearFrom && book.getYear()<= yearTo){
+               foundBook.add(book);
+
             }
         }
-        return bookInPeriod;
+
+        return foundBook;
     }
 
     @Override
     public void removeBook(Book book) {
-        books.remove(book);
+     books.remove(book);
     }
 
     @Override
     public void removeBookByTitle(String title) {
-        for (Book book : books) {
-            if (book.getTitle().equals(title)) {
-                books.remove(book);
-                break;
-            }
-        }
+        Book book = findBookByTitle(title);
+        removeBook(book);
+
+
+
 
     }
 
     @Override
     public void removeBooksByAuthor(String author) {
-        for (int i = books.size() - 1; i >= 0; i--) {
-            if (books.get(i).getAuthor().equals(author)) {
-                books.remove(i);
-
-            }
+        List<Book> booksByAuthor = findBooksByAuthor(author);
+        for (Book book: booksByAuthor){
+            removeBook(book);
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
