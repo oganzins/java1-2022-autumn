@@ -83,6 +83,7 @@ public class SimpleLibrary implements Library {
 
     @Override
     public void remove(Book book) {
+
         remove(book.getTitle());
     }
 
