@@ -32,7 +32,7 @@ public class SimpleInventory implements Inventory {
 
     @Override
     public List<Product> getAllProducts() {
-        return (List<Product>) products.values();
+        return List.copyOf(products.values());
     }
 
     @Override
