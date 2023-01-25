@@ -26,6 +26,9 @@ public class LibraryDemo {
         library.removeAllByAuthor("Robert C. Martin");
 
         System.out.println(library.getAllBooks());
+
+        String mostPopularAuthor = library.findMostPopularAuthor();
+        System.out.println(mostPopularAuthor);
     }
 
 }

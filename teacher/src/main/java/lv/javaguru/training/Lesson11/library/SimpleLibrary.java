@@ -103,12 +103,41 @@ public class SimpleLibrary implements Library {
 
     @Override
     public String findMostPopularAuthor() {
-        //books - bookCountByAuthor
-        Map<String, Integer> bookCountByAuthor = null;
-        return null;
+        Map<String, Integer> bookCountByAuthor = getBookCountByAuthor();
+        return getMostPopularAuthor(bookCountByAuthor);
     }
 
     private boolean isPresent(Book book) {
         return !books.containsKey(book.getTitle());
+    }
+
+    private Map<String, Integer> getBookCountByAuthor() {
+        Map<String, Integer> bookCountByAuthor = new HashMap<>();
+        for (Book book : books.values()) {
+            String author = book.getAuthor();
+            if (bookCountByAuthor.containsKey(author)) {
+                int bookCount = bookCountByAuthor.get(author);
+                bookCount++;
+                bookCountByAuthor.put(author, bookCount);
+            } else {
+                bookCountByAuthor.put(author, 1);
+            }
+        }
+        return bookCountByAuthor;
+    }
+
+    private String getMostPopularAuthor(Map<String, Integer> bookCountByAuthor) {
+        String mostPopularAuthor = null;
+        int mostPopularAuthorBookCount = 0;
+        for (Map.Entry<String, Integer> entry : bookCountByAuthor.entrySet()) {
+            String author = entry.getKey();
+            int bookCount = entry.getValue();
+
+            if (mostPopularAuthor == null || bookCount > mostPopularAuthorBookCount) {
+                mostPopularAuthor = author;
+                mostPopularAuthorBookCount = bookCount;
+            }
+        }
+        return mostPopularAuthor;
     }
 }
