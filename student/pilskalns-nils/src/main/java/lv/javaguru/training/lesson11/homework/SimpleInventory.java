@@ -68,13 +68,10 @@ public class SimpleInventory implements Inventory {
 
     @Override
     public void updateProductPrice(String productName, double newPrice) {
-        for (Product product : products.values()) {
-            if (product.getName().equals(productName)) {
-                product.setPrice(newPrice);
+        products.get(productName).setPrice(newPrice);
             }
-        }
 
-    }
+
 
     @Override
     public Product getProductWithLowestPrice() {
