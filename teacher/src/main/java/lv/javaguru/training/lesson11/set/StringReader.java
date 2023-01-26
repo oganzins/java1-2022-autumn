@@ -1,4 +1,4 @@
-package lv.javaguru.training.Lesson11.set;
+package lv.javaguru.training.lesson11.set;
 
 import java.util.HashSet;
 import java.util.Scanner;

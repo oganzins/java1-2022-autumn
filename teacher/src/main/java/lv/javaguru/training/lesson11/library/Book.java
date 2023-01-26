@@ -1,4 +1,4 @@
-package lv.javaguru.training.Lesson11.library;
+package lv.javaguru.training.lesson11.library;
 
 public class Book {
 

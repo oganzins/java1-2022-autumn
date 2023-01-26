@@ -1,4 +1,4 @@
-package lv.javaguru.training.Lesson11.map;
+package lv.javaguru.training.lesson11.map;
 
 import java.util.HashMap;
 import java.util.Map;
