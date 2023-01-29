@@ -82,11 +82,10 @@ public class MyBookShelf implements BookShelf {
 
     @Override
     public void removeBooksByAuthor(String author) {
-        for (int i = books.size() - 1; i >= 0; i--) {
-            if (books.get(i).getAuthor().equals(author)) {
-                books.remove(i);
+        List<Book> booksByAuthor = findBooksByAuthor(author);
+        books.removeAll(booksByAuthor);
             }
         }
 
-    }
-}
+
+
