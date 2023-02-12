@@ -1,4 +1,4 @@
-# 11. Nodarbība
+# 14. Nodarbība
 ## 1 Uzdevums
 ### Funkcionālais kalulators
 
