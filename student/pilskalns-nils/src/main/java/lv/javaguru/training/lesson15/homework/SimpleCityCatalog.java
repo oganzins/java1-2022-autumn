@@ -60,9 +60,7 @@ public class SimpleCityCatalog implements CityCatalog {
 
     @Override
     public Integer countTotalCityPopulation() {
-        int total = getTotalPopulation();
-
-        return total;
+        return getTotalPopulation();
     }
 
     @Override
